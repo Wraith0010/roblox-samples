@@ -2,7 +2,7 @@
 
 ## Touhou bullet hell (client project)
 
-Systems I built for a client's touhou-style bullet hell on Roblox. The engine (bullets, lasers, player, rendering) is the client's and isn't included here. This code was written with AI assistance (Claude), and the client has edited parts of it since.
+Systems I built for a client's touhou-style bullet hell on Roblox. The engine (bullets, lasers, player, rendering) is the client's and isn't included here. 
 
 The game runs in lockstep: the server steps one simulation frame for every client input, so both sides run the same code frame by frame. Because of that, everything here counts time in sim frames instead of seconds.
 
